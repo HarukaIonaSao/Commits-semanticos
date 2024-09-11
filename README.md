@@ -8,24 +8,26 @@ Commits semânticos são uma convenção para escrever mensagens de commit que s
 
 A estrutura básica de uma mensagem de commit semântico segue este formato:
 
+```
 <tipo>(<escopo opcional>): <descrição curta>
 
-<mensagem detalhada opcional> <footer opcional>```
+<mensagem detalhada opcional> <footer opcional>
+```
 
-Componentes
-Tipo: Indica o propósito da mudança. Exemplos:
+### Componentes
+* Tipo: Indica o propósito da mudança. Exemplos:
 
-[feat]: Adição de uma nova funcionalidade.
-[fix]: Correção de um bug.
-[chore]: Tarefas de manutenção, sem impacto no código de produção (como atualizações de dependências).
-[docs]: Alterações na documentação.
-[style]: Mudanças que não afetam a lógica, como formatação.
-[refactor]: Alterações que melhoram o código sem modificar o comportamento.
-[perf]: Melhorias de desempenho.
-[test]: Adição ou correção de testes.
-[build]: Mudanças em arquivos de build ou dependências externas.
-[ci]: Alterações em arquivos ou scripts de configuração de integração contínua.
-[Escopo]: Indica a área do projeto que foi afetada, como um módulo ou componente. Este campo é opcional, mas útil para especificar melhor o contexto da alteração.
+* [feat]: Adição de uma nova funcionalidade.
+* [fix]: Correção de um bug.
+* [chore]: Tarefas de manutenção, sem impacto no código de produção (como atualizações de dependências).
+* [docs]: Alterações na documentação.
+* [style]: Mudanças que não afetam a lógica, como formatação.
+* [refactor]: Alterações que melhoram o código sem modificar o comportamento.
+* [perf]: Melhorias de desempenho.
+* [test]: Adição ou correção de testes.
+* [build]: Mudanças em arquivos de build ou dependências externas.
+* [ci]: Alterações em arquivos ou scripts de configuração de integração contínua.
+* [Escopo]: Indica a área do projeto que foi afetada, como um módulo ou componente. Este campo é opcional, mas útil para especificar melhor o contexto da alteração.
 
 * Descrição Curta: Um resumo direto e objetivo da alteração. Deve ser conciso e, de preferência, não ultrapassar 50 caracteres.
 
